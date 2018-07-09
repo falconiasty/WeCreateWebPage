@@ -1,0 +1,286 @@
+@media only screen and (max-width: 600px){
+     #h1{
+        
+        color:black;
+    }
+ 
+     #body{
+    background-color: yellow; 
+    }
+    
+    # {color:aqua;}
+    
+}
+
+
+
+# {
+    
+    font-family: Verdana;
+}
+
+body {
+width:100%;
+height:100%;
+background:red;
+margin:auto;
+    
+}
+
+
+h1{ 
+    padding-top:100px;
+    color:white;    
+    text-align:center;
+    font-weight:bold;
+    font-size: 600%;
+    font-family: Verdana;
+}
+h2{ 
+    color:white;    
+    text-align:center;
+    font-weight:bold;
+    font-size: 72px;
+    font-family: Verdana;
+}
+h3{ 
+    color:black;    
+    text-align:left;
+    font-weight:bold;
+    font-size: 27px;
+    font-family: Verdana;
+}
+h4{ 
+    color:white;    
+  font-weight:bold;
+    font-size: 45px;
+    font-family: Verdana;
+}
+
+h5{
+
+}
+
+p{
+    
+    text-align: center;
+    font-size:30px;
+    font-family:Verdana;
+    color:white;
+}
+
+#wrapper {
+    
+    margin: 0 auto;
+    height: 100%;
+}
+
+.navbar {
+    background-color: white;
+    position:fixed;
+    float: left;
+    margin: 0px;
+    width: 100%;
+    height: 7%;
+    color:white;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position:center;
+        
+}
+
+.navbar ul{
+text-align:center;
+
+}
+.navbar li{
+        list-style: none;
+        display:inline;
+       
+}
+
+.navbar li a {
+    margin-right: 15px;
+    color:deeppink;
+    text-decoration:none;
+    font-weight:bold;
+    font-family: 'Verdana';
+    
+}
+.navbar li a:hover{
+    color:orange;
+}
+
+
+.home {
+    background: rgba(207,183,60,1);
+    background: -moz-linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(207,183,60,1)), color-stop(100%, rgba(199,14,162,1)));
+    background: -webkit-linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    background: linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfb73c', endColorstr='#c70ea2', GradientType=1 );
+    height:455px;    
+    width:100%;
+}
+
+#projects {
+    background:white;
+    height:140%;    
+    width:100%;
+}
+#photo {
+    padding-top:100px;
+    background-image: url(gfx/fullbg.jpg);
+    width:100%;
+    height:40%;
+    margin-top:-5%;
+   }
+#experience {
+    background:white;
+    height:70%;    
+    width:100%;
+}
+#contact{
+    background: rgba(207,183,60,1);
+    background: -moz-linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(207,183,60,1)), color-stop(100%, rgba(199,14,162,1)));
+    background: -webkit-linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    background: -o-linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    background: -ms-linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    background: linear-gradient(45deg, rgba(207,183,60,1) 0%, rgba(199,14,162,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cfb73c', endColorstr='#c70ea2', GradientType=1 );
+    height:60%;    
+    width:100%;
+
+}
+.columns {
+float:left;
+height:30%;
+width:30%;
+margin: 2% 8% 2% 8%;
+padding: 2% 2%;
+background-color:white;
+}
+
+.columns2 {
+
+float:left;
+height:50%;
+width:50%;
+text-align: center;
+    
+}
+#kreda{
+    margin-top: 2%;
+    height:100%;
+    width:100%;
+    border-radius:8px;
+    }
+#stol {
+    margin-top: 2%;
+    height:100%;
+    width:100%;
+    border-radius:8px;
+}
+#twarz {
+    margin-top: ;
+    height:200%;
+    width:90%;
+    border-radius:8px;
+}
+
+.button {
+    text-align: center;
+    border-color: white;
+    border: 2px solid deeppink;
+    border-radius: 8px;
+    background-color: transparent;
+    color: black;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 2% 45%;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    }
+
+
+.button:hover {
+    background-color: deeppink;
+    color: white;
+}
+
+#formularz {
+        height:80%;
+        width:45%; /* ustawiamy szerokość formularza */
+        margin: auto; /* jeżeli nasz formularz ma ustawioną szerokość wyśrodkowujemy go */
+        border:2px solid #ccc; /* dodajemy obramowanie o szerokości 2px */
+        border-radius:10px; /* zaokrąglamy tło naszego formularza */
+		padding:20px; /* dodajemy margines wewnątrz naszego formularza */
+        margin-top:20px; /* dodajemy margines górny naszego formularza */
+        text-align:left;
+}
+
+#formularz label {
+    text-align:center;
+    display:block;/* ustawiamy by label rozpoczynał się od nowej linii*/
+    margin-bottom:5px;/* dodajemy margines dolny */
+    font-weight:bold; /* pogrubiamy czcionkę */
+    text-transform: uppercase; /* zamieniamy wszystkie litery na duże */
+    font-size:12px; /* ustawiamy wielkość czcionki */
+    color:white; /* ustawiamy kolor czcionki */
+}
+
+#formularz textarea{
+    height:30%;
+    width:100%;
+    border-color:white;
+    border-bottom-width:3px;  
+    border-style:solid;
+    background-color:transparent;
+    
+}
+
+#formularz input {
+    border-color:white;
+    display: block;
+    text-align: center;
+    padding:5px; /* dodajemy margines wewnątrz naszego pola */
+	margin-bottom:15px; /* dodajemy margines dolny */
+	width:100%; /* ustalamy szerokość */
+    background: transparent;
+    border-bottom-width:3px;  
+    border-top-style:none;
+    border-left-style:none;
+    border-right-style:none;
+    border-bottom-style:solid;
+    
+}
+#formularz input#submit {
+    color:white;
+    border-color:white;
+	cursor:pointer; /* zmieniamy kursor */
+	margin-top:15px; /* dodajemy margines dolny */
+	width:100%; /* ustalamy szerokość */
+    background: transparent;
+    border-bottom-width:3px;  
+    border-style:solid;
+}
+
+#hide{
+
+display:none}
+
+#hide2{
+
+display:none}
+
+
+#hide3{
+
+display:none}
